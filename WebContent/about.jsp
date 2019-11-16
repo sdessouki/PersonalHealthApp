@@ -4,7 +4,7 @@
 
 <html lang="en">
 <head>
-<title>MIE350 Sample Web App - About</title>
+<title>Vaccine and Medication Tracker - About</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -35,9 +35,8 @@
 			</div>
 			<div class="col-sm-8 text-left">
 				<h1>About</h1>
-				This is a sample web app created for the <b>MIE350</b> course at the
-				<a href="http://www.utoronto.ca">University of Toronto</a> for
-				demonstration purposes. <br> <br> It was developed using
+				This is a web application created by students enrolled in the <b>MIE350</b> course at the
+				<a href="http://www.utoronto.ca">University of Toronto</a> . <br> <br> It was developed using
 				the following:<br>
 				<ul>
 					<li>Eclipse Java EE IDE for Web Developers,</li>

@@ -27,6 +27,8 @@ public class LoginController extends HttpServlet {
 		Member member = new Member();
 		member.setUsername(request.getParameter("un"));
 		member.setPassword(request.getParameter("pw"));
+		System.out.print(member.getUsername());
+
 
 		try {
 			/**
@@ -45,6 +47,7 @@ public class LoginController extends HttpServlet {
 				session.setAttribute("username", member.getUsername());
 				session.setAttribute("firstname", member.getFirstName());
 				session.setAttribute("lastname", member.getLastName());
+				System.out.print(member.getUsername());
 				/**
 				 * Redirect to the members-only home page.
 				 */

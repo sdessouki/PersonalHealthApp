@@ -4,7 +4,7 @@
 
 <html lang="en">
 <head>
-<title>MIE350 Sample Web App - Login</title>
+<title>Vaccine and Medication Tracker - Login</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -29,11 +29,8 @@
 
 	<div class="container-fluid text-center">
 		<div class="row content">
-			<div class="col-sm-2 sidenav">
-				<!-- You can put left sidebar links here if you want to. -->
-			</div>
 			<div class="col-sm-8 text-left">
-				<h1>Administrator Login</h1>
+				<h1>Profile Login</h1>
 
 				<form action="LoginController">
 
@@ -43,15 +40,6 @@
 
 				</form>
 				<br /> 
-				For demonstration purposes, please use the following
-				credentials:
-				<ul>
-					<li><b>Username</b>: admin (or admin2, admin3, admin4, admin5)</li>
-					<li><b>Password</b>: password</li>
-				</ul>
-			</div>
-			<div class="col-sm-2 sidenav">
-				<!-- You can put right sidebar links here if you want to. -->
 			</div>
 		</div>
 	</div>
@@ -60,3 +48,4 @@
 
 </body>
 </html>
+

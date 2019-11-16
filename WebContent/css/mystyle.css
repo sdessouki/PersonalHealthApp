@@ -1,24 +1,110 @@
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-	margin-bottom: 0;
-	border-radius: 0;
+
+body {
+  font-family: Courier;
+  padding: 10px;
+  background: white;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+  background: #243665;
+}
+
+header::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	padding: 10px 0;
+}
+
+nav {
+	text-align: center;
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 35px;
+	
+	position: relative;
+}
+
+nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+nav a:hover {
+	color: #8BD8BD;
+}
+
+nav a::before {
+	content: "";
+	display: block;
+	heoght: 5px;
+	width:100%;
+	background-color: #8BD8BD;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+	
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
-	height: 450px
+	height: 800px
 }
 
-/* Set gray background color and 100% height */
-.sidenav {
-	padding-top: 20px;
-	background-color: #f1f1f1;
-	height: 100%;
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  min-width: 600px;
+  padding: 5px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+	text-align: center;
 }
 
 /* Set black background color, white text and some padding */
 footer {
-	background-color: #555;
+	background-color: #8BD8BD;
 	color: white;
 	padding: 15px;
 }
