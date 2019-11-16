@@ -30,6 +30,7 @@
 	
 	<div class="row">
 		<div class="column">
+		Hello this is our Vaccine and Medication Tracker to make sure you don't miss your dose and die
 			<a href="#"><img border="0" alt="Medicines" src="img/medicon.jpg" width="200" height="200" class="center"></a>
 		</div>                                                                                                                                      
 			

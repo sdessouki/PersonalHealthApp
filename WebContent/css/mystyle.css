@@ -92,6 +92,20 @@ nav a:hover::before {
   display: inline-block;
 }
 
+.caption {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+	colour: #8BD8BD;
+}
+
 .row::after {
   content: "";
   clear: both;

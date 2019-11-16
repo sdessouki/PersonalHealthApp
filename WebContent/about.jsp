@@ -34,46 +34,65 @@
 				<!-- You can put left sidebar links here if you want to. -->
 			</div>
 			<div class="col-sm-8 text-left">
-				<h1>About</h1>
-				This is a web application created by students enrolled in the <b>MIE350</b> course at the
-				<a href="http://www.utoronto.ca">University of Toronto</a> . <br> <br> It was developed using
-				the following:<br>
-				<ul>
-					<li>Eclipse Java EE IDE for Web Developers,</li>
-					<li>The Java programming language,</li>
-					<li>Java Server Pages (JSP),</li>
-					<li>Apache Tomcat 7.0, and</li>
-					<li>A simple Microsoft Access database.</li>
-				</ul>
-				As well, the following <b>open-source</b> tools were used:
-				<ul>
-					<li><a href="http://getbootstrap.com/">The Bootstrap CSS
-							theme</a>, and</li>
-					<li><a href="https://kryogenix.org/code/browser/sorttable/">Stuart
-							Langridge's Sort Table JavaScript</a></li>
-				</ul>
-				<hr>
-				<h2>This Sample Web App</h2>
-				<br> This is a toy example that does the following: <br>
-				<ul>
-					<li><b>Create</b> new students in the database.</li>
-					<li><b>Read</b> in students from the database.</li>
-					<li><b>Update</b> student information in the database.</li>
-					<li><b>Delete</b> student in the database.</li>
-					<li><b>Search</b> for students in the database.</li>
-					<li><b>Logs in</b> members to the system to add/update/delete
-						students in the database.</li>
-				</ul>
-				<hr>
-				<h2>Organization of Files</h2>
-				<img src="img/mie350_webapp_schematic.jpg"> <br />
-				<h2>Using This For Your Projects</h2>
-				<br> You are free to use and modify this template file for your
-				projects.<br />
-				<br />
+				<h1>Meet the Team</h1>
 			</div>
-			<div class="col-sm-2 sidenav">
-				<!-- You can put right sidebar links here if you want to. -->
+				
+				
+			<div class="row">
+				<div class="column">
+    				<div class="card">
+    				  <img src="img/maria.png" alt="Maria" width="200" length="200">
+     					<div class="container">
+        					<h2>Maria</h2>
+        					<p class="title">Team Leader</p>
+      					</div>
+   					</div>
+  				</div>
+				<div class="column">
+    				<div class="card">
+    				  <img src="img/salma.png" alt="Maria" width="200" length="200">
+     					<div class="container">
+        					<h2>Salma</h2>
+        					<p class="title">Front-End</p>
+      					</div>
+   					</div>
+  				</div>
+ 				<div class="column">
+    				<div class="card">
+    				  <img src="img/dante.png" alt="Maria" width="200" length="200">
+     					<div class="container">
+        					<h2>Dante</h2>
+        					<p class="title">Front-End</p>
+      					</div>
+   					</div>
+  				</div>
+				<div class="column">
+    				<div class="card">
+    				  <img src="img/matteo.png" alt="Maria" width="200" length="200">
+     					<div class="container">
+        					<h2>Matteo</h2>
+        					<p class="title">Back End</p>
+      					</div>
+   					</div>
+  				</div>
+				<div class="column">
+    				<div class="card">
+    				  <img src="img/nolan.png" alt="Maria" width="200" length="200">
+     					<div class="container">
+        					<h2>Nolan</h2>
+        					<p class="title">Back-End</p>
+      					</div>
+   					</div>
+  				</div>
+				<div class="column">
+    				<div class="card">
+    				  <img src="img/momo.png" alt="Maria" width="200" length="200">
+     					<div class="container">
+        					<h2>Momo</h2>
+        					<p class="title">Front-End</p>
+      					</div>
+   					</div>
+  				</div>  				  				  				
 			</div>
 		</div>
 	</div>
